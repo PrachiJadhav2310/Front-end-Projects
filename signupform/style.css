@@ -1,0 +1,97 @@
+*{
+    background-image: url("back.jpeg") no-repeat;
+    background-size: contain;
+    
+}
+.image{
+    margin-top: 5rem;
+    align-items: center;
+    margin-left: 5rem;
+    height: 100%;
+    width:50%;
+}
+
+img{
+    height:600px;
+    border-radius:10% ;
+}
+img:hover{
+    cursor: pointer;
+    border: 2px solid blue;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+}
+
+.main{
+    display: flex;
+    background-image: url("back.jpeg");
+    color:rgb(24, 7, 133);
+    height: 100%;
+}
+
+.register{
+    border: 3px solid blue;
+    height:600px;
+    border-radius: 20px;  
+}
+
+.register:hover {
+    border: 3px solid blue; /* Border style when hovered */
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); /* Box shadow effect */
+}
+
+.lform{
+    background-color: white;
+    margin-top: 5rem;
+    width:50%;
+    margin-right: 5rem;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.input-user label{
+    font-size: 25px;
+    
+}
+
+.input-user input{
+    width:95%;
+    height: 30px;  
+}
+
+.input-user input:hover{
+    border:2px solid blue;
+}
+
+.input-user input:focus{
+    focus:none;
+    border:2px solid blue;
+}
+
+.input-user{
+    font-size: 20px;
+    width: 95%;
+    padding: 10px;
+}
+
+button{
+    font-size: 25px;
+    font-weight: 20px;
+    height:50px;
+    width: 100px;
+    align-items:center;
+    justify-content: center;
+    margin-left: 270px;
+    border-radius: 20px;
+    background-color: rgb(158, 179, 225);
+    border: 2px solid darkblue;
+
+}
+
+button:hover{
+    border: 2px solid darkblue;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+}
