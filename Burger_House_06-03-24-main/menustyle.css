@@ -1,0 +1,19 @@
+
+
+
+.btn {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    color:#ffffff;
+    background-color: #df1c1c;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color:  #42200b;
+  }
+.card{
+    background-color: #ffffff;
+}
+ 
