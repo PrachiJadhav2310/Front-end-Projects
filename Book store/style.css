@@ -1,0 +1,215 @@
+hr{
+    color:rgb(147, 44, 215);
+}
+
+.navbar{
+    display: flex;
+    height: 4.5rem;
+    width: 100%;
+}
+
+.logo img{
+    height:4.5rem;
+    width:10rem;
+    margin-left: 10px;
+}
+
+.navtools{
+    font-size: 20px;
+    margin-left: 600px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navtools a{
+    padding: 15px;
+    text-decoration: none;
+    color:rgb(184, 1, 166);
+    font-size: 25px;
+    font-weight: 5rem;
+}
+
+.navtools a:hover{
+    color:rgb(0, 55, 255);
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    height: 100%;
+    margin-left:10px ;
+}
+
+.contain{
+    height: 100%;
+    width:50% ;
+    margin-bottom: 5px;
+    margin-top:70px;
+    display: block;
+}
+
+.contain h1{
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+
+p{
+    color:rgb(156, 0, 204);
+    margin-left: 30px;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.loremtext{
+    font-size: 20px;
+    color:black;
+}
+
+.containimg:hover{
+    height:80% ;
+    cursor: pointer;
+    border: 2px solid #8146de; /* Add a border on hover */
+    transition: height 3s ease; /* Add transition effect for smooth height change */
+    box-shadow: 0 0 40px rgba(214, 114, 219, 0.877); 
+    
+}
+
+.about{
+    padding-top: 50px;
+    display: flex;
+}
+
+.aboutimg img{
+    border-radius: 50px;
+}
+
+.abouttext p{
+    font-size: 20px;
+    color:black;
+    padding-top: 50px;
+}
+
+.abouttext h2{
+   font-size: 35px;
+    color:black;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+.featuredbooks {
+    display: flex ;
+}
+.featured h1{
+    margin-left: 50%;
+}
+.featuredbooks{
+   height:500px;
+   width:100%;
+   background-color: rgb(182, 176, 176);
+   margin-top: 20px;
+}
+
+.featuredbooks h3{
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.featuredbooks h2{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.f1{
+    margin-top: 20px;
+    margin-left: 20px;
+   background-color: white;
+   width:350px;
+   height: 450;
+}
+.f1 img {
+    height: 350px;
+    width: 320px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.featuredbooks h2{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.f2{
+    margin-top: 20px;
+    margin-left: 20px;
+   background-color: white;
+   width:350px;
+   height: 450;
+}
+.f2 img {
+    height: 350px;
+    width: 320px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.f3{
+    padding-left: 30px;
+    background-color: white;
+    margin-left: 15px;
+   width:350px;
+   margin-top: 20px; 
+   margin-left: 20px;
+   height: 450;
+}
+.f3 img {
+    height: 350px;
+    width: 320px;
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.f3 h3{
+    margin-left: 30%;
+}
+
+
+.f4{
+    padding-left: 30px;
+    background-color: white;
+    margin-left: 20px;
+   width:350px;
+   margin-top: 20px; 
+   margin-left: 20px;
+   margin-right: 10px;
+   height: 450;
+}
+.f4 img {
+    height: 350px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left:2px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.f4 h3{
+    margin-left: 30%;
+}
+/* /////////////////////// */
+
+.featuredbooks2{
+    padding-top: 20px;
+    height:450px;
+    width:100%;
+    background-color: rgb(182, 176, 176);
+    margin-top: 20px;
+    display: flex;
+ }
